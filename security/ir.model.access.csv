@@ -1,4 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_dynamic_form,dynamic.form,model_dynamic_form,base.group_user,1,1,1,1
-access_dynamic_form_row,dynamic.form.row,model_dynamic_form_row,base.group_user,1,1,1,1
-access_dynamic_form_column,dynamic.form.column,model_dynamic_form_column,base.group_user,1,1,1,1
+access_dynamic_form_user,dynamic.form.user,model_dynamic_form,base.group_user,1,1,1,1
+access_dynamic_form_row_user,dynamic.form.row.user,model_dynamic_form_row,base.group_user,1,1,1,1
+access_dynamic_form_column_user,dynamic.form.column.user,model_dynamic_form_column,base.group_user,1,1,1,1

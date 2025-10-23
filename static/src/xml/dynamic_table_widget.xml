@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="DynamicTableWidget">
+        <div class="dynamic-table-widget">
+            <div class="table-container"/>
+            <div class="table-controls" t-if="!widget.mode === 'readonly'">
+                <button class="btn btn-primary add-row">Add Row</button>
+                <button class="btn btn-primary add-column">Add Column</button>
+                <button class="btn btn-secondary remove-row">Remove Row</button>
+                <button class="btn btn-secondary remove-column">Remove Column</button>
+            </div>
+        </div>
+    </t>
+</templates>

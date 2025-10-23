@@ -1,0 +1,38 @@
+.dynamic-table-widget {
+    margin: 10px 0;
+    
+    .dynamic-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 10px;
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f5f5f5;
+            font-weight: bold;
+        }
+        
+        .cell-input {
+            width: 100%;
+            border: none;
+            padding: 4px;
+            
+            &:focus {
+                outline: 2px solid #00a09d;
+            }
+        }
+    }
+    
+    .table-controls {
+        margin-top: 10px;
+        
+        button {
+            margin-right: 10px;
+        }
+    }
+}
